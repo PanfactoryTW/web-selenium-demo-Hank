@@ -13,7 +13,7 @@ Selenium + Python + pytest demo for login failure handling and HTML report gener
 
 ## Setup
 
-```bash
+
 git clone https://github.com/PanfactoryTW/web-selenium-demo-Hank.git
 cd web-selenium-demo-Hank
 python -m venv venv
@@ -21,12 +21,14 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 ## Run Tests
-
+```
 pytest --html=reports/test_report.html --self-contained-html
-
+```
 
 With auto-report (Windows):
+```
 .\run_test_report.ps1
+```
 
 ## Structure
 web-selenium-demo-Hank/
