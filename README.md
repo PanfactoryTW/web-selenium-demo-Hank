@@ -31,6 +31,7 @@ With auto-report (Windows):
 ```
 
 ## Structure
+```
 web-selenium-demo-Hank/
 ├── tests/
 ├── reports/
@@ -38,3 +39,4 @@ web-selenium-demo-Hank/
 ├── run_test_report.ps1
 ├── requirements.txt
 └── README.md
+```
